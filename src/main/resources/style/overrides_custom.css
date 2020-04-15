@@ -1,0 +1,19 @@
+._jrHyperLink {
+    text-decoration: underline;
+    color: #0000EE;
+}
+
+/* visited link */
+._jrHyperLink:visited {
+    color: #800080;
+}
+
+/* mouse over link */
+._jrHyperLink:hover {
+    color: #FF00FF;
+}
+
+/* selected link */
+._jrHyperLink:active {
+    color: #FF0000;
+}
