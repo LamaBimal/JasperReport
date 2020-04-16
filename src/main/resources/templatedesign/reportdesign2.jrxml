@@ -88,8 +88,10 @@
                     <text><![CDATA[Issue Date:]]></text>
                 </staticText>
                 <textField>
-                    <reportElement x="430" y="9" width="89" height="19" uuid="51e4a9b9-dc57-4418-bc96-36bc26e0cf73"/>
-                    <box topPadding="3" leftPadding="3"/>
+                    <reportElement x="430" y="10" width="89" height="19" forecolor="#999696" uuid="51e4a9b9-dc57-4418-bc96-36bc26e0cf73">
+                        <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                    </reportElement>
+                    <box topPadding="1" leftPadding="3"/>
                     <textFieldExpression><![CDATA[$P{issueDate}]]></textFieldExpression>
                 </textField>
             </frame>
